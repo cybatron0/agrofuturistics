@@ -12,7 +12,7 @@ const products = [
     price: 25,
     status: 'Available',
     ready: false,
-    image: '/images/onions.jpg',
+    image: '/IMG-20260810-WA0007.jpg',
     description: 'High quality Red Creole onion seedlings.',
   },
   {
@@ -23,7 +23,7 @@ const products = [
     price: 80,
     status: 'Ready to plant',
     ready: true,
-    image: '/images/cabbage.jpg',
+    image: '/IMG-20260810-WA0006.jpg',
     description: 'Copenhagen cabbage seedlings ready for transplanting.',
   },
   {
@@ -34,7 +34,7 @@ const products = [
     price: 45,
     status: 'Available',
     ready: false,
-    image: '/images/leafy.jpg',
+    image: '/IMG-20260810-WA0005.jpg',
     description: 'Fresh rape seedlings.',
   },
   {
@@ -45,7 +45,7 @@ const products = [
     price: 45,
     status: 'Available',
     ready: false,
-    image: '/images/leafy.jpg',
+    image: '/IMG-20260810-WA0005.jpg',
     description: 'Quality mustard seedlings.',
   },
   {
@@ -56,7 +56,7 @@ const products = [
     price: 45,
     status: 'Available',
     ready: false,
-    image: '/images/cabbage.jpg',
+    image: '/IMG-20260810-WA0006.jpg',
     description: 'Chinese cabbage seedlings.',
   },
   {
@@ -67,7 +67,7 @@ const products = [
     price: 70,
     status: 'Ready',
     ready: true,
-    image: '/images/chilli-trays.jpg',
+    image: '/IMG-20260810-WA0004.jpg',
     description: "Bird's Eye Chilli seedlings ready for planting.",
   },
 ];
@@ -97,7 +97,7 @@ export default function Home() {
       <header className="bg-white/90 backdrop-blur sticky top-0 z-50 border-b border-forest-100 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image src="/logo.jpg" alt="AgroFuturistics" width={48} height={48} className="rounded-full object-cover" />
+            <Image src="/IMG-20260810-WA0003.jpg" alt="AgroFuturistics" width={48} height={48} className="rounded-full object-cover" />
             <div>
               <h1 className="font-bold text-forest-700 text-lg leading-tight">AGROFUTURISTICS</h1>
               <p className="text-xs text-forest-500 hidden sm:block">Planting Today, Harvesting Tomorrow</p>
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white">
-              <Image src="/logo.jpg" alt="AgroFuturistics Logo" fill className="object-cover" priority />
+              <Image src="/IMG-20260810-WA0003.jpg" alt="AgroFuturistics Logo" fill className="object-cover" priority />
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
       <footer className="bg-forest-800 text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex justify-center mb-4">
-            <Image src="/logo.jpg" alt="Logo" width={56} height={56} className="rounded-full" />
+            <Image src="/IMG-20260810-WA0003.jpg" alt="Logo" width={56} height={56} className="rounded-full" />
           </div>
           <p className="font-bold text-lg">AGROFUTURISTICS</p>
           <p className="text-forest-200 text-sm mt-1">Planting Today, Harvesting Tomorrow</p>
