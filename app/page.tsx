@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-// AgroFuturistics - Force production rebuild
+// Final mapping - pictures are now present in the repo
 const products = [
   {
     id: 'onions',
