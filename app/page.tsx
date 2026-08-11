@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
+// AgroFuturistics - Force production rebuild
 const products = [
   {
     id: 'onions',
