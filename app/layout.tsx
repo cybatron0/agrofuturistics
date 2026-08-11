@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://agrofuturistics.vercel.app'),
   title: 'AgroFuturistics | Quality Seedlings - Bunda, Lilongwe',
   description: 'Planting Today, Harvesting Tomorrow. Quality seedlings for stronger futures. Anyezi, Kabichi, Rape, Mustard, Chinese & Bird\'s Eye Chilli available in Bunda, Lilongwe.',
   openGraph: {
