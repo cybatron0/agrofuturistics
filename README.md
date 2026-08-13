@@ -22,3 +22,6 @@ https://agrofuturistics.vercel.app
 - Deployed on Vercel
 
 Contact via WhatsApp for orders.
+
+---
+*Quality improvements applied: enhanced metadata & SEO, robots.txt, cleaned repository structure.*
