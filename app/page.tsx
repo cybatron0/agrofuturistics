@@ -80,7 +80,7 @@ const PHONES = [
 
 export default function Home() {
   const [selected, setSelected] = useState<string | null>(null);
-  const [qty, setQty] = useState(1);
+  const [qty, setQty] = useState(100);
 
   const product = products.find((p) => p.id === selected);
 
@@ -148,7 +148,7 @@ export default function Home() {
                   <h3 className="font-bold text-lg text-forest-800">{p.nameCh} <span className="text-gray-500 font-normal text-base">({p.nameEn})</span></h3>
                   {p.variety && <p className="text-sm text-gray-500 mt-0.5">Variety: {p.variety}</p>}
                   <p className="text-2xl font-bold text-forest-600 mt-3">K{p.price} <span className="text-sm font-normal text-gray-500">per seedling</span></p>
-                  <button onClick={() => { setSelected(p.id); setQty(1); }} className="mt-4 w-full bg-forest-600 hover:bg-forest-700 text-white font-medium py-2.5 rounded-xl transition">Order Now</button>
+                  <button onClick={() => { setSelected(p.id); setQty(100); }} className="mt-4 w-full bg-forest-600 hover:bg-forest-700 text-white font-medium py-2.5 rounded-xl transition">Order Now</button>
                 </div>
               </div>
             ))}
@@ -202,7 +202,7 @@ export default function Home() {
             <div className="flex items-center gap-4 mb-6">
               <label className="font-medium">Quantity:</label>
               <div className="flex items-center gap-2">
-                <button onClick={() => setQty(Math.max(1, qty - 1))} className="w-8 h-8 rounded-full bg-forest-100 text-forest-700 font-bold">−</button>
+                <button onClick={() => setQty(Math.max(100, qty - 1))} className="w-8 h-8 rounded-full bg-forest-100 text-forest-700 font-bold">−</button>
                 <span className="w-10 text-center font-semibold">{qty}</span>
                 <button onClick={() => setQty(qty + 1)} className="w-8 h-8 rounded-full bg-forest-100 text-forest-700 font-bold">+</button>
               </div>
